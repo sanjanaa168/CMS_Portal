@@ -1,0 +1,6 @@
+@dotNet_Project_HostAddress = http://localhost:5000
+
+GET {{dotNet_Project_HostAddress}}/api/healthcheck
+Accept: application/json
+
+###
